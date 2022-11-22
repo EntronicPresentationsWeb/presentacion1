@@ -1,9 +1,25 @@
-.container {
-  padding: 0 2rem;
+@import "mixing";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1420px
+);
+//fonts
+$p-font-main: 'Dosis', sans-serif;
+//colors
+$white-color: #fff;
+$blue-main: #012F61;
+
+.font-main-text{
+  font-family: $p-font-main;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -19,13 +35,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-}
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  
 }
 
 .title a {
@@ -108,7 +119,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@include desktop {
   .grid {
     width: 100%;
     flex-direction: column;
