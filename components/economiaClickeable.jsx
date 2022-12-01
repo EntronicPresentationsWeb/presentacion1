@@ -29,7 +29,7 @@ export default function EconomiaClickeable() {
             <Container>
                 <Row className="bg-img-row2-presentation1">
                     <Col>
-                        <h4 className="color-white">Ven por la herramienta  <br />
+                        <h4 className="color-white pt-15 ml-30 text-center">Ven por la herramienta <br />
                             Quedate por la Red
                         </h4>
                     </Col>
@@ -39,53 +39,67 @@ export default function EconomiaClickeable() {
                 </Row>
                 <Row>
                     <Col>
-                        <Row>
+                        <Row className="mt-25">
                             <Image src="/economiaClickeable/LogoArcalia.png" width={258} height={67} />
                         </Row>
-                        <Row>
+                        <Row className="mt-40 mb-25">
                             <Image src="/economiaClickeable/LogoFixup.png" width={200} height={136} />
                         </Row>
                     </Col>
                     <Col>
                         <Row>
-                            <div className="card">
-                                <Image src="/economiaClickeable/Icono-gestor-tareas.png" width={65} height={65} />
+                            <div className="card-frame-2 mt-25">
+                                <Image src="/economiaClickeable/Icono-gestor-tareas.png" width={65} height={65} className="mt-icon-card" />
                                 <div className="card-padding">
-                                    <h4>Gestor de tareas</h4>
+                                    <h5 className="text-center mt-10">Gestor de tareas</h5>
                                 </div>
                             </div>
                         </Row>
                         <Row>
-                            <div className="card">
-                                <Image src="/economiaClickeable/Icono-administracion.png" width={65} height={65} />
+                            <div className="card-frame-2 mt-25">
+                                <Image src="/economiaClickeable/Icono-administracion.png" width={65} height={65} className="mt-icon-card" />
                                 <div className="card-padding">
-                                    <h4>Administración y Gestión
+                                    <h5 className="text-center mt-10">Administración y Gestión
                                         de procesos para prestadores
-                                        de servicios tecnicos </h4>
+                                        de servicios tecnicos </h5>
                                 </div>
                             </div>
                         </Row>
                     </Col>
                     <Col>
                         <Row>
-                            <div>
+                            <div className="mt-55 ml-35">
                                 <Image src="/economiaClickeable/Flecha.png" width={108} height={50} />
                             </div>
                         </Row>
                         <Row>
-                            <div>
+                            <div className="mt-25 ml-35">
                                 <Image src="/economiaClickeable/Flecha.png" width={108} height={50} />
                             </div>
                         </Row>
                     </Col>
                     <Col>
                         <Row>
-                            <div className="card">
-                                <Image src="/economiaClickeable/Icono-ecosistema.png" width={65} height={65} />
+                            <div className="card mt-40">
+                                <Image src="/economiaClickeable/Icono-ecosistema.png" width={65} height={65} className="mt-icon-card" />
                                 <div className="card-padding">
-                                    <h4>Ecosistema Arcalia</h4>
-                                    <p>Demanda de servicios</p>
-                                    <p>Oferta servicios técnicos</p>
+                                    <h4 className="text-center">Ecosistema Arcalia</h4>
+                                    <Container>
+                                        <Col>
+                                            <Image src="/economiaClickeable/flecha-izq-arriba.png" width={44} height={89}/>
+                                        </Col>
+                                        <Col>
+                                            <Row>
+                                                <h5 className="text-center">Demanda de servicios</h5>
+                                            </Row>
+                                            <Row>
+                                                <h5 className="text-center">Oferta servicios técnicos</h5>
+                                            </Row>
+                                        </Col>
+                                        <Col>
+                                            <Image src="/economiaClickeable/flecha-derecha-abajo.png" width={44} height={89}/>
+                                        </Col>
+                                    </Container>
                                 </div>
                             </div>
                         </Row>
