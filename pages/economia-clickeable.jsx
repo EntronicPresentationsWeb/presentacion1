@@ -3,8 +3,8 @@ import EconomiaClickeable from '../components/economiaClickeable';
 
 export default function MainEconomiaClickeable() {
     return (
-        <Container>
+        <div>
             <EconomiaClickeable />
-        </Container>
+        </div>
     )
 }
